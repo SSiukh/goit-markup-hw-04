@@ -412,3 +412,7 @@ img {
 .footer-list-items:hover {
   background-color: #31d0aa;
 }
+
+.section-third-icon {
+  fill: #f4f4fd;
+}
