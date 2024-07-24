@@ -406,7 +406,8 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-list-a:hover {
+.footer-list-a:hover,
+.footer-list-a:focus {
   background-color: #31d0aa;
 }
 
