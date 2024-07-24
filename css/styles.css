@@ -372,6 +372,7 @@ img {
   width: 1158px;
   margin: 0 auto;
   display: flex;
+  align-items: baseline;
 }
 .footer-list {
   display: flex;
@@ -389,15 +390,12 @@ img {
   color: #fff;
   margin-bottom: 16px;
 }
-.container-in-footer {
+.container-in-footer-first {
   width: auto;
+  margin-right: 120px;
 }
 
-.container-in-footer:last-child {
-  margin-left: 120px;
-}
-
-.footer-list-items {
+.footer-list-a {
   width: 40px;
   height: 40px;
   background-color: #4d5ae5;
@@ -408,8 +406,12 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-list-items:hover {
+.footer-list-a:hover {
   background-color: #31d0aa;
+}
+
+.footer-list-icon {
+  fill: #f4f4fd;
 }
 
 .section-third-icon {
